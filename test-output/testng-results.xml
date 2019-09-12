@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="131688" started-at="2019-09-12T18:09:02Z" finished-at="2019-09-12T18:11:13Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="131688" started-at="2019-09-12T18:09:02Z" finished-at="2019-09-12T18:11:13Z">
+      <class name="Script.GmailLogin">
+        <test-method status="PASS" signature="extentreport()[pri:0, instance:Script.GmailLogin@124753a]" name="extentreport" is-config="true" duration-ms="1466" started-at="2019-09-12T23:39:00Z" finished-at="2019-09-12T23:39:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentreport -->
+        <test-method status="PASS" signature="starttest123()[pri:0, instance:Script.GmailLogin@124753a]" name="starttest123" is-config="true" duration-ms="0" started-at="2019-09-12T23:39:02Z" finished-at="2019-09-12T23:39:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starttest123 -->
+        <test-method status="PASS" signature="OpenAppln()[pri:0, instance:Script.GmailLogin@124753a]" name="OpenAppln" is-config="true" duration-ms="53284" started-at="2019-09-12T23:39:02Z" finished-at="2019-09-12T23:39:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenAppln -->
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:Script.GmailLogin@124753a]" name="testLogin" duration-ms="62472" started-at="2019-09-12T23:39:55Z" finished-at="2019-09-12T23:40:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="CloseAppln(org.testng.ITestResult)[pri:0, instance:Script.GmailLogin@124753a]" name="CloseAppln" is-config="true" duration-ms="15901" started-at="2019-09-12T23:40:58Z" finished-at="2019-09-12T23:41:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogin status=SUCCESS method=GmailLogin.testLogin()[pri:0, instance:Script.GmailLogin@124753a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseAppln -->
+      </class> <!-- Script.GmailLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
